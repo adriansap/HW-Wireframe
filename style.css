@@ -15,8 +15,8 @@ header {
   text-align: center;
   background-color: #ebebeb;
   color: grey;
-  padding: 10px;
-  margin: 10px;
+  padding: 30px;
+  margin: 1px;
   width: 985px;
 }
 
@@ -24,8 +24,8 @@ nav {
   text-align: center;
   background-color: #ebebeb;
   color: grey;
-  padding: 10px;
-  margin: 10px;
+  padding: 30px;
+  margin: 1px;
 }
 
 .container {
@@ -46,11 +46,12 @@ section {
 article {
   background-color: #777;
   color: #ebebeb;
-  padding: 50px;
+  padding: 30px;
   margin: 10px;
 }
 .article {
   background-color: #777;
+  padding: 10px;
 }
 
 .headings {
@@ -69,13 +70,14 @@ article {
 aside {
   background-color: #ebebeb;
   text-align: center;
-  padding: 205px;
+  padding: 185px;
   margin: 10px;
+  width: 465px;
 }
 footer {
   text-align: center;
   background-color: #ebebeb;
   color: grey;
-  padding: 10px;
+  padding: 30px;
   margin: 10px;
 }
