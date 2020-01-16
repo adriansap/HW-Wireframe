@@ -16,7 +16,8 @@ header {
   background-color: #ebebeb;
   color: grey;
   padding: 30px;
-  margin: 1px;
+  margin: 10px;
+  border: 1px;
   width: 985px;
 }
 
@@ -25,12 +26,16 @@ nav {
   background-color: #ebebeb;
   color: grey;
   padding: 30px;
+  border: 1px;
   margin: 1px;
+  width: 985px;
 }
+/* .wrapper {
+  width: 985px;
+} */
 
 .container {
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 10px;
   width: 1000px;
   color: grey;
 }
@@ -38,9 +43,19 @@ nav {
 section {
   background-color: #ebebeb;
   text-align: center;
-  padding: 50px;
-  margin: 10px;
+  padding: 40px 40px 55px 40px;
+  margin: 1px;
   width: 495px;
+  position: relative;
+  top: 10px;
+}
+
+aside {
+  background-color: #ebebeb;
+  /* text-align: center; */
+  padding: 20px 276px 310px 185px;
+  margin: 12px 20px 20px 12px;
+  width: 465px;
 }
 
 article {
@@ -67,17 +82,15 @@ article {
   color: #777;
 }
 
-aside {
-  background-color: #ebebeb;
-  text-align: center;
-  padding: 185px;
-  margin: 10px;
-  width: 465px;
-}
 footer {
-  text-align: center;
+  text-align: center !important;
   background-color: #ebebeb;
   color: grey;
-  padding: 30px;
-  margin: 10px;
+  position: relative;
+  top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 985px;
+  margin-top: 10px;
+  /* margin: 10px 740px 1px 1px; */
 }
